@@ -39,13 +39,20 @@ body {
       img {
         vertical-align: middle;
         height: 90%;
+        animation: spin infinite 0.5s linear;
       }
     }
 
     &.info {
       font-size: 1.5em;
       font-weight: bold;
+      color: red;
     }
 
   }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }

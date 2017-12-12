@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  background-color: #191919;
+  margin: 0;
+}
+
+.content {
+  background-color: #f0f0f0;
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+
+  section {
+    padding: 50px 0 50px;
+
+    .link {
+      border-radius: 100px;
+      border: 7px solid #191919;
+      width: 200px;
+      height: 150px;
+      line-height: 150px;
+      display: inline-block;
+      margin-right: -25px;
+      text-align: center;
+      img {
+        vertical-align: middle;
+        height: 90%;
+      }
+    }
+
+    &.disclaimer {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+  }
+}
